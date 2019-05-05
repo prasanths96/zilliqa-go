@@ -1,6 +1,14 @@
 # zilliqa-go
 This project aims to mimic the architectural transaction flow of Zilliqa Blockchain as per this whitepaper: https://docs.zilliqa.com/whitepaper.pdf
 
+## Typical flow
+- Client submits transaction.
+- Transaction assigned to one of the shard networks.
+- Block gets mined and consensus reached within the shard network.
+- Block passed as transaction to a DSC network.
+- DSC node mines the Blocks of block and reaches consensus with other DSC nodes.
+- Done.
+
 # Design
 ## Nodes: 
 - Config Maintainer service (who maintains nodes and their networks and serves requests)
