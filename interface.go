@@ -19,7 +19,7 @@ const QUERYNETWORK = 2
 const QUERYNETWORKRESULT = 3
 
 // MAX_TRANSACTION_IN_BLOCK
-const MAXTRANSACTION = 3
+const MINTRANSACTION = 3
 
 
 // ===============================================================================

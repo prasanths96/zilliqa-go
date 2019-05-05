@@ -242,7 +242,7 @@ func (n *Node) minerSubmitTransactionProcessor(d ComObj, _logger *log.Logger) {
 	n.PendingTransactions = append(n.PendingTransactions, transaction)
 	_logger.Print(n.PendingTransactions)
 
-	if len(n.PendingTransactions) >= MAXTRANSACTION {
+	if len(n.PendingTransactions) >= MINTRANSACTION {
 		_logger.Print("Mining Block #", (n.Blockheight + 1))
 		n.mineBlock(_logger)
 		_logger.Print("Mining successful.")
