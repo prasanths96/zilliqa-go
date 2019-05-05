@@ -13,5 +13,5 @@ This project aims to mimic the architectural transaction flow of Zilliqa Blockch
 - Each node have their own Listening channel - if node1 wants to communicate with node2, it uses node2's Listening channel to send messages.
 - There is a common transaction channel, which is listened by all nodes. (This way, the node which is free automatically receives the transaction request first)
 - When a node first receives transaction from Transaction Channel, it broadcasts to all other nodes in the network by 1. Contacting ConfigMaintainer to recieve list of other nodes in the network, 2. Sending to all nodes in list by starting separate go routines for each - to avoid blocking.
-
+- Then all the nodes which has received the transaction adds the transaction to PendingTransaction list and mines a new Block if no. of transactions have reached a certain number as given in MINTRANSACTION constant in interface.go
 
