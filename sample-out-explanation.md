@@ -1,9 +1,9 @@
 ## Main
-Main: Sun May  5 19:20:46 2019: Starting Tracer
-Main: Sun May  5 19:20:46 2019: Starting Program
-ConfigMaintainer: Sun May  5 19:20:46 2019: Initializing Node
-ConfigMaintainer: Sun May  5 19:20:46 2019: Starting Node
-Main: Sun May  5 19:20:46 2019: network0
+-Main: Sun May  5 19:20:46 2019: Starting Tracer
+-Main: Sun May  5 19:20:46 2019: Starting Program
+-ConfigMaintainer: Sun May  5 19:20:46 2019: Initializing Node
+-ConfigMaintainer: Sun May  5 19:20:46 2019: Starting Node
+-Main: Sun May  5 19:20:46 2019: network0
 ConfigMaintainerRoutine: Sun May  5 19:20:46 2019: Started Listening
 node02: Sun May  5 19:20:46 2019: Initializing Node
 node01: Sun May  5 19:20:46 2019: Initializing Node
